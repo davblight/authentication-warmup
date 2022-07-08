@@ -1,0 +1,27 @@
+{
+  "name": "authentication-warmup",
+  "version": "1.0.0",
+  "description": "Warmup simple auth app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davblight/authentication-warmup.git"
+  },
+  "author": "David Blight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davblight/authentication-warmup/issues"
+  },
+  "homepage": "https://github.com/davblight/authentication-warmup#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
