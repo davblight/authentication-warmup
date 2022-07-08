@@ -7,4 +7,4 @@ mongo.onConnect(() => {
     });
 });
 
-mongo.connect
+mongo.connect()

@@ -2,9 +2,11 @@ const express = require("express");
 const User = require("./model");
 const app = express();
 const setUpAuth = require("./auth");
+const setUpSessionStore = require("./session");
 
 app.use(express.json());
 
+setUpSessionStore(app);
 setUpAuth(app);
 
 app.post("/users", async (req, res) => {
